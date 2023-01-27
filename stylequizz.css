@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: beige;
+    font-family: Georgia;
+   /* font-family: 'Chivo Mono', monospace;*/
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    border: solid black 5px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #16213E;
+}
+header {
+    background-color: #16213E;
+    align-items: baseline;
+    padding: 20px 10px 20px 0px;
+}
+.name{
+    margin-right: 50%;
+    margin-left: 10px;
+    font-size: 20px;
+}
+p{
+    justify-content: start;
+}
+.link{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    
+}
+.links{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.divhead{
+    display: inline;
+}
+body{
+    background-color: #101728;
+}
+.quizz{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #1C315E;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    text-align: center;
+}
+.btn{
+    margin-top: 15px ;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
